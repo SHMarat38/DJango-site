@@ -1,73 +1,8 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>О нас - Мой сайт</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .content {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>О нас</h1>
-    </header>
-    <nav>
-        <a href="index.html">Главная</a>
-        <a href="about.html" class="active">О нас</a>
-        <a href="#">Услуги</a>
-        <a href="#">Контакты</a>
-    </nav>
-    <div class="content">
-        <h2>О нашей компании</h2>
-        <p>Наша компания была основана в 2020 году с целью предоставления высококачественных услуг в области веб-разработки. Мы гордимся нашим профессионализмом и вниманием к деталям.</p>
-        <h3>Наша миссия</h3>
-        <p>Предоставлять нашим клиентам лучшие решения, которые помогут им добиться успеха в их бизнесе.</p>
-        <h3>Наша команда</h3>
-        <p>У нас работает команда опытных профессионалов, которые всегда готовы помочь вам с любыми вопросами и задачами.</p>
-        <h3>Контактная информация</h3>
-        <p>Вы можете связаться с нами по электронной почте: info@mysite.com или по телефону: +7 (123) 456-7890.</p>
-    </div>
-    <footer>
-        <p>© 2024 Мой сайт. Все права защищены.</p>
-    </footer>
-</body>
-</html>
+{% extends 'main/layout.html' %}
+
+{% block title %} Про нас{% endblock %}
+
+{% block content %}
+    <h1>Про нас</h1>
+    <p>Про нас</p>
+{% endblock %}
