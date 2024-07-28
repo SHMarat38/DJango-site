@@ -8,4 +8,4 @@ class News(models.Model):
 
 
     def __str__(self):
-        return self.title
+        return f'Новость : {self.title}'
