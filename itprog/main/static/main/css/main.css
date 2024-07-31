@@ -84,3 +84,8 @@ button:active {
     text-align: left;
     clear: both;
 }
+form {
+    margin-left: 15%;
+    width: 500px;
+    margin-top: 50px;
+}
